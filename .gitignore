@@ -1,0 +1,11 @@
+/Blobs/*.sln
+/Blobs/*.csproj
+/Blobs/game.log
+/Blobs/obj
+/Blobs/Logs
+/Blobs/Library
+/Blobs/Temp
+/Blobs/.vs
+/Blobs/Assets/Extensions
+/Blobs/Assets/Resources
+/Blobs/Assets/Standard Assets

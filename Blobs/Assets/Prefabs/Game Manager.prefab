@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6675936872247872909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6675936872247872899}
+  - component: {fileID: 6675936872247872908}
+  - component: {fileID: 1291693416}
+  - component: {fileID: 1291693415}
+  - component: {fileID: 7892402754978112092}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6675936872247872899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675936872247872909}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6675936872247872908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675936872247872909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c8f1dae2782bd47b6cce461c563bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ItemSpawned: {fileID: 0}
+  LevelChange: {fileID: 0}
+  BuyItem: {fileID: 0}
+  Error: {fileID: 0}
+  BossDefeated: {fileID: 0}
+  GameOverFanfare: {fileID: 0}
+  PlayOnUpgrade: []
+  SpawnRumbles: []
+  HiddenRoomMusic: {fileID: 0}
+  HiddenRoomEnterStinger: {fileID: 0}
+  ShopRoomMusic: {fileID: 0}
+  ShopRoomEnterStinger: {fileID: 0}
+  TreasureRoomMusic: {fileID: 0}
+  TreasureRoomEnterStinger: {fileID: 0}
+  BossDefeatedRoomMusic: {fileID: 0}
+  AchievementSound: {fileID: 0}
+  PlayerPrefab: {fileID: 0}
+  ItemIconPrefab: {fileID: 0}
+  CalloutPrefab: {fileID: 0}
+  PriceLabelPrefab: {fileID: 0}
+  UpgradePopUpPrefab: {fileID: 0}
+  BombPrefab: {fileID: 0}
+  Placeables: []
+  Pickups: []
+  EnemyDropPickups: []
+  Upgrades: []
+  Scroll: {fileID: 0}
+  Doors: []
+  Explosion: {fileID: 0}
+  UnknownItemIcon: {fileID: 0}
+  PotionSprites: []
+  RoleSprites: []
+  GUIRoot: {fileID: 0}
+--- !u!82 &1291693416
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675936872247872909}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1969c831985a8441a87efcc493a3f4b4, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1291693415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675936872247872909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485f757ed83ac1644bb57a016fd2c0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RedHitMaterial: {fileID: 2100000, guid: db84d80e3525ce14a960bd8e298fcb86, type: 2}
+  LOSCheckMask:
+    serializedVersion: 2
+    m_Bits: 0
+  PickupPlacementCheckMask:
+    serializedVersion: 2
+    m_Bits: 0
+  PathFindingMask:
+    serializedVersion: 2
+    m_Bits: 0
+  ButtonSelect: []
+  ButtonSubmit: []
+  CombatTextPrefab: {fileID: 0}
+--- !u!114 &7892402754978112092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6675936872247872909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d305934114c5d24483bc7de7b9b8d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RandomEncounters:
+  - Name: Basic
+    Enemies:
+    - {fileID: 3231172882936807851, guid: c5f4457f92376c04fb81cdca3ea569e4, type: 3}
+    - {fileID: 1551767730249162550, guid: 5e38ca5b42082a54ca9ca9b8ba659718, type: 3}
+    EnemyCountMin: 1
+    EnemyCountMaxExclusive: 10
+    Loot:
+    - {fileID: 7343597618424596096, guid: ef06abcc1c6c3a04ba443103026935f6, type: 3}
+    - {fileID: 5195655876078809852, guid: 3ae771d1ad51d3e4f8695dd094d5a207, type: 3}
+    - {fileID: 6681429546687455078, guid: bb48fc3c464010740abdfa673e4815d5, type: 3}
+    - {fileID: 7193806172270605089, guid: 8a0487ec9f8a65c4cbae3e9aa6f7f3ee, type: 3}
+    LootCountMin: 1
+    LootCountMaxExclusive: 4
+    CosmeticCountMin: 1
+    CosmeticCountMaxExclusive: 4
+    MinDistance: 40
+    MaxDistance: 60
+    Radius: 5
+  - Name: Easy
+    Enemies:
+    - {fileID: 3231172882936807851, guid: c5f4457f92376c04fb81cdca3ea569e4, type: 3}
+    - {fileID: 1551767730249162550, guid: 5e38ca5b42082a54ca9ca9b8ba659718, type: 3}
+    - {fileID: 1551767730249162550, guid: 6dcf526fb30413e4e9e1dd4ba6d3be6b, type: 3}
+    EnemyCountMin: 5
+    EnemyCountMaxExclusive: 20
+    Loot:
+    - {fileID: 7343597618424596096, guid: ef06abcc1c6c3a04ba443103026935f6, type: 3}
+    - {fileID: 5195655876078809852, guid: 3ae771d1ad51d3e4f8695dd094d5a207, type: 3}
+    - {fileID: 6681429546687455078, guid: bb48fc3c464010740abdfa673e4815d5, type: 3}
+    - {fileID: 7193806172270605089, guid: 8a0487ec9f8a65c4cbae3e9aa6f7f3ee, type: 3}
+    LootCountMin: 1
+    LootCountMaxExclusive: 4
+    CosmeticCountMin: 1
+    CosmeticCountMaxExclusive: 4
+    MinDistance: 40
+    MaxDistance: 80
+    Radius: 5
+  - Name: Hard
+    Enemies:
+    - {fileID: 3231172882936807851, guid: c5f4457f92376c04fb81cdca3ea569e4, type: 3}
+    - {fileID: 1551767730249162550, guid: 5e38ca5b42082a54ca9ca9b8ba659718, type: 3}
+    - {fileID: 3231172882936807851, guid: 9697a8b8adcefa549957fcdb4b93746c, type: 3}
+    - {fileID: 1551767730249162550, guid: 6dcf526fb30413e4e9e1dd4ba6d3be6b, type: 3}
+    EnemyCountMin: 5
+    EnemyCountMaxExclusive: 20
+    Loot:
+    - {fileID: 7343597618424596096, guid: ef06abcc1c6c3a04ba443103026935f6, type: 3}
+    - {fileID: 5195655876078809852, guid: 3ae771d1ad51d3e4f8695dd094d5a207, type: 3}
+    - {fileID: 6681429546687455078, guid: bb48fc3c464010740abdfa673e4815d5, type: 3}
+    - {fileID: 7193806172270605089, guid: 8a0487ec9f8a65c4cbae3e9aa6f7f3ee, type: 3}
+    LootCountMin: 1
+    LootCountMaxExclusive: 4
+    CosmeticCountMin: 1
+    CosmeticCountMaxExclusive: 4
+    MinDistance: 60
+    MaxDistance: 80
+    Radius: 5
+  NonRandomEncounters: []
+  InitialCountMin: 5
+  InitialCountMaxExclusive: 10
+  RandomEncounterInterval: 30
